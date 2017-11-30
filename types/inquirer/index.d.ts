@@ -115,6 +115,14 @@ declare namespace inquirer {
          * Add a mask when password will entered
          */
         mask?: string;
+        /**
+         * Change the default prefix message.
+         */
+        prefix?: string;
+        /**
+         * Change the default suffix message.
+         */
+        suffix?: string;
     }
 
     /**
